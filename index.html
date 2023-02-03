@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebarClose">
+        <section>
+          <li class="listMenu">
+            <img class="iconsNone" src="/assets/logo.svg" alt="" />
+            <img
+              onclick="toggleMenu()"
+              class="icons"
+              src="/assets/menu.svg"
+              alt=""
+              id="menu"
+            />
+          </li>
+          <li class="list">
+            <img class="icons" src="/assets/search.svg" alt="" />
+            <input class="inputNone" type="text" />
+          </li>
+          <li class="list">
+            <img class="icons" src="/assets/grid.svg" alt="" />
+            <p class="textNone">Dashboard</p>
+          </li>
+          <li class="list">
+            <img class="icons" src="/assets/pet.svg" alt="" />
+            <p class="textNone">Pets</p>
+          </li>
+          <li class="list">
+            <img class="icons" src="/assets/user.svg" alt="" />
+            <p class="textNone">Clientes</p>
+          </li>
+          <li class="list">
+            <img class="icons" src="/assets/vet.svg" alt="" />
+            <p class="textNone">Vets</p>
+          </li>
+          <li class="list">
+            <img class="icons" src="/assets/settings.svg" alt="" />
+            <p class="textNone">Ajustes</p>
+          </li>
+        </section>
+
+        <section class="log-out">
+          <li class="log-out-list">
+            <img class="userNone" src="/assets/photo.jpg" alt="" />
+            <img class="icons" src="/assets/log-out.svg" alt="" />
+          </li>
+        </section>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
